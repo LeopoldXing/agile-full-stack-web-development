@@ -9,7 +9,6 @@ class GrainsTest < Minitest::Test
   end
 
   def test_square_2
-    skip
     assert_equal 2, Grains.square(2)
   end
 
@@ -29,7 +28,6 @@ class GrainsTest < Minitest::Test
   end
 
   def test_square_32
-    skip
     assert_equal 2_147_483_648, Grains.square(32)
   end
 
@@ -39,7 +37,6 @@ class GrainsTest < Minitest::Test
   end
 
   def test_total_grains
-    skip
     assert_equal 18_446_744_073_709_551_615, Grains.total
   end
 end
